@@ -1,4 +1,5 @@
 // restaurant.js
+
 const restaurantInfo = [
   {
     hotelimg: "./image/sheraton.jpg",
@@ -27,7 +28,7 @@ const restaurantInfo = [
 ];
 
 function filterHotels(category) {
-  console.log(`Filtering hotels by category: ${category}`); // Debugging statement
+  console.log(`Filtering hotels by category: ${category}`);
   const hotelsList = document.getElementById("hotels_list");
   hotelsList.innerHTML = "";
 
